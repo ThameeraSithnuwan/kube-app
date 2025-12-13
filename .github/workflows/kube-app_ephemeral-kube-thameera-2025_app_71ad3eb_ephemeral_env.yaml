@@ -5,9 +5,6 @@ name: >-
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_d1e68b37-f02d-4b3d-bec1-0617363126bf
-  push:
-    branches:
-      - main
 env:
   ENCODED_PIPELINE_SECRET: >-
     ${{secrets.KUBEAPP_KUBEAPP_EPHEMERALKUBETHAMEERA2025_APP_71AD3EB_EPHEMERAL_ENV}}
