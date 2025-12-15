@@ -4,7 +4,7 @@ name: >-
 'on':
   workflow_dispatch: {}
   repository_dispatch:
-    types: pipeline_6510c930-2fc0-4a34-b643-53d42b90cfc0
+    types: pipeline_421e311a-1dce-49d7-ab34-11af7f13c0de
 env:
   ENCODED_PIPELINE_SECRET: >-
     ${{secrets.KUBEAPP_NEWTEST_EPHEMERALKUBETHAMEERA2025_APP_D1220A0_EPHEMERAL_ENV}}
