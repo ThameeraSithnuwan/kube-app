@@ -2,6 +2,12 @@ name: >-
   kube-app_ephemeral-kube-sameera-ephemeral-2025-12-13_app_71ad3eb_ephemeral_env
   Pipeline (Skyu Generated)
 'on':
+  push:
+    paths-ignore:
+      - .github/workflows/**
+      - .trivyignore
+      - Readme.md
+      - README.md
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_46f449f9-7cad-49d6-8be3-5f5d23f87664
